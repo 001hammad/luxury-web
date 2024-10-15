@@ -1,5 +1,6 @@
-'use client'
-import React from "react";
+'use client';
+
+import React, { useEffect } from "react";
 import Image from "next/image";
 import pic1 from "../../../public/pic1.jpg";
 import pic2 from "../../../public/pic2.png";
@@ -12,18 +13,18 @@ import pic8 from "../../../public/pic8.png";
 import pic9 from "../../../public/pic9.png";
 import pic10 from "../../../public/pic10.png";
 import Form from '../components/Form';
-
-import { useEffect } from "react";
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+import 'aos/dist/aos.css'; 
 
 const Hero = () => {
   useEffect(() => {
     AOS.init({
-      duration:900,
+      duration: 900,
       easing: 'ease-in-out'
     });
   }, []);
+
+
   return (
     <div>
       <div className="grid grid-cols-1 grid-rows-1 ">
