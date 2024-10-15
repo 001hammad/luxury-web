@@ -111,7 +111,7 @@ const Hero = () => {
       <div className="bg-[#C1D8C3] mt-2 h-64">
   <h1 className="flex justify-center items-center pt-16 font-mono" data-aos="fade-up">ABOUT</h1>
   <p className="text-center  text-xs text-gray-600 w-1/2 mx-auto mt-12 mb-2 font-mono"> 
-    I'm a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. Im a great place for you to tell a story and let your users know a little more about you. 
+    I&apos;m a paragraph. Click here to add your own text and edit me. Its easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. Im a great place for you to tell a story and let your users know a little more about you. 
   </p>
 </div>
 <div className="flex justify-center items-center bg-[#C1D8C3]" data-aos="fade-up">
